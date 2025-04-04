@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Basketball</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #ddddff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: transparent;
+            background: url("background.HEIC");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 40px 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: pink;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: black;
+        }
+
+        .container {
+            width: 90%;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .content {
+            max-width: 800px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .content h2 {
+            color: #ff7773;
+        }
+
+        .content p {
+            line-height: 1.6;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #ff7773;
+            transition: transform 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .image-row img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #ff7773;
+            transition: transform 0.3s ease;
+        }
+
+        .image-row img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        My Basketball Journey
+    </header>
+
+    <nav>
+        <a href="../home.html">Home</a>
+        <a href="../pages/basketball.html">Basketball</a>
+        <a href="../pages/background.html">Background</a>
+        <a href="../pages/photogallery.html">Photo Gallery</a>
+        <a href="../pages/contact.html">Contact Me</a>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <h2>Early Childhood and Basketball</h2>
+            <p>
+                As young as first grade my love for basketball grew like no other!
+                From the first day I touched a basketball, I knew it would 
+                help me get somewhere in life. Whether that meant to get me to see new places
+                or prolong me in my education.
+            </p>
+            <div class="image-container">
+                <img src="../pages/1bball.jpg" alt="early basketball years">
+            </div>
+
+            <h2>High School</h2>
+            <p>
+                As I got older, I chose the high school I felt would help me achieve what I was looking for.
+                At that point, I knew I wanted to play basketball in college, and had so much support around
+                me to do so. I was a district champion my sophomore year, all-district that year and my 
+                senior year, and an All-Star my last year. I signed at the end of the season to Trinidad State 
+                College in Trinidad, Colorado.
+            </p>
+            <div class="image-container">
+                <img src="../pages/mayfieldbball.jpeg" alt="HS Bball">
+            </div>
+
+            <h2>College Experience</h2>
+            <p>
+                I started my collegiate career at Trinidad State College. I spent a year there going to school,
+                learning the game at the next level, and developing more of a sense of what I wanted 
+                out of my experience. From there I moved to Seattle, Washington, where I attended Edmonds College
+                for my second year of eligibility. I truly loved the move and change of scenery. From the dry desert heat, 
+                to the beautiful green Pacific Northwest. My experience there shaped who I am now as a person, player, and
+                student. Those first two years of college basketball taught me a lot about life and who I wanted to be.
+            </p>
+            <div class="image-row">
+                <img src="../pages/tsjc.jpg" alt="First Year">
+                <img src="../pages/eccbball.jpg" alt="Second Year">
+            </div>
+
+            <h2>Today</h2>
+            <p>
+                After all the stress and uncertainty, I am so proud to say I am where I am now. Little did I know taking all the risks
+                I did would lead me here! VIU is now one of the homes I have engraved in my heart, and I am so proud to play
+                for the coaches and teammates I play for. The journey is the dream!
+            </p>
+            <div class="image-container">
+                <img src="bball5.jpg" alt="Now">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        2024 Margarita Salas. Digital Media Final Project. | <a href="pages/contact.html">Contact</a>
+    </footer>
+</body>
+
+</html>
+

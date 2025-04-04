@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Image Gallery</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: #ddddff;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            text-align: center;
+            background-image: url("background.HEIC");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            font-family: Arial, sans-serif;
+            padding: 40px 20px;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: pink;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: black;
+        }
+
+        .gallery-table {
+            width: 90%;
+            margin: 40px auto;
+            border-collapse: collapse;
+        }
+
+        .gallery-table td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .gallery-table img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border: 2px solid #ff7773;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery-table img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Photos</h1>
+    </header>
+
+    <nav>
+        <a href="../home.html">Home</a>
+        <a href="../pages/basketball.html">Basketball</a>
+        <a href="../pages/background.html">Background</a>
+        <a href="../pages/photogallery.html">Photo Gallery</a>
+        <a href="../pages/contact.html">Contact Me</a>
+    </nav>
+
+    <h2>This gallery sums up my life these past few years. Lots of new places, and so many different sceneries I have gotten the opportunity to see! All photographed by me! Basketball pictures shot by Mary Kessenich!</h2>
+
+    <table class="gallery-table">
+        <!-- Completely Randomized Order -->
+        <tr>
+            <td><img src="../pages/bball3.jpg" alt="Basketball"></td>
+            <td><img src="../pages/photo4.HEIC" alt="Autumn Scenery"></td>
+            <td><img src="../pages/background.HEIC" alt="Nanaimo Waterfront"></td>
+        </tr>
+        <tr>
+            <td><img src="../pages/fam.jpg" alt="Family"></td>
+            <td><img src="../pages/basketball.JPG" alt="Teammates"></td>
+            <td><img src="../pages/photo1.HEIC" alt="Seattle Sunset"></td>
+        </tr>
+        <tr>
+            <td><img src="../pages/IMG_3941.JPG" alt="Basketball Action"></td>
+            <td><img src="../pages/bball7.jpg" alt="Basketball Flicks"></td>
+            <td><img src="../pages/nets.jpg" alt="Basketball"></td>
+        </tr>
+        <tr>
+            <td><img src="../pages/bball1.jpg" alt="Basketball"></td>
+            <td><img src="../pages/fam2.jpg" alt="Family"></td>
+            <td><img src="../pages/photo3.HEIC" alt="Seattle Skyline"></td>
+        </tr>
+        <tr>
+            <td><img src="../pages/headshot.jpg" alt="Headshot"></td>
+            <td><img src="../pages/background2.HEIC" alt="Night Sky"></td>
+            <td><img src="../pages/babyyy.jpg" alt="Sisters"></td>
+        </tr>
+        <tr>
+            <td><img src="../pages/IMG_3908.JPG" alt="Excited for Season"></td>
+            <td><img src="../pages/photogallery.jpg" alt="Photography"></td>
+            <td><img src="../pages/photo2.HEIC" alt="Seattle City Skyline"></td>
+        </tr>
+        <tr>
+            <td><img src="../pages/champs.JPG" alt="Championship"></td>
+            <td><img src="../pages/bball5.jpg" alt="Basketball"></td>
+            <td><img src="../pages/bball6.jpg" alt="Basketball"></td>
+        </tr>
+        <tr>
+            <td><img src="../pages/edmonds1.jpg" alt="Basketball"></td>
+            <td><img src="../pages/background.JPG" alt="Basketball Game"></td>
+            <td><img src="../pages/bball2.jpg" alt="Basketball"></td>
+        </tr>
+    </table>
+
+    <footer>
+        2024 Margarita Salas. Digital Media Final Project. | <a href="pages/contact.html">Contact</a>
+    </footer>
+</body>
+
+</html>
